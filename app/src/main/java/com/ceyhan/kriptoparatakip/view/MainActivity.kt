@@ -38,11 +38,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun handleResponse(response: List<CryptoModel>) {
-        val cryptoModels = response?.let { ArrayList(it) }
-        cryptoModels?.let {
-            binding.recyclerView.layoutManager = LinearLayoutManager(this@MainActivity)
-            binding.recyclerView.adapter = RecyclerViewAdapter(cryptoModels!!)
-        } ?: Toast.makeText(this@MainActivity,getString(R.string.errorText),Toast.LENGTH_LONG).show()
+        val cryptoModels = ArrayList(response)
+        binding.recyclerView.layoutManager = LinearLayoutManager(this@MainActivity)
+        binding.recyclerView.adapter = RecyclerViewAdapter(cryptoModels)
     }
 
     override fun onDestroy() {
