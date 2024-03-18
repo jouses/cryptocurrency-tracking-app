@@ -6,4 +6,4 @@ An application where you can track crypto currencies
 * Recyclerview
 * Fragment
 ## Screenshots
-<img src="https://github.com/jouses/cryptocurrency-tracking-app/blob/master/Screenshot" width=30% height=30%>
+<img src="https://github.com/jouses/cryptocurrency-tracking-app/blob/master/Screenshot" width=20% height=20%>
