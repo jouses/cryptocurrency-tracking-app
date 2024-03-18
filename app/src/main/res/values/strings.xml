@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kripto Para Takip</string>
+    <string name="exchangerate">Exchangerate</string>
+    <string name="errorText">Data cannot be loaded!</string>
+</resources>
