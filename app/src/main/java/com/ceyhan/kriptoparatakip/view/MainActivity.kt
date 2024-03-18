@@ -1,10 +1,8 @@
 package com.ceyhan.kriptoparatakip.view
 
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.ceyhan.kriptoparatakip.R
 import com.ceyhan.kriptoparatakip.adapter.RecyclerViewAdapter
 import com.ceyhan.kriptoparatakip.databinding.ActivityMainBinding
 import com.ceyhan.kriptoparatakip.model.CryptoModel
